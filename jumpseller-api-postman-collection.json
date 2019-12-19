@@ -1,0 +1,3510 @@
+{
+    "id": "d8584aa5c47ebe051d8ec7814eee27f2",
+    "name": "Jumpseller API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "5ca531be2df95858d7ed9146c74a96f0",
+            "name": "Retrieve all Jumpseller Apps.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/apps.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "3aea514671897dca99b3e531be7e0b0f",
+            "name": "Retrieve all Categories.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/categories.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "437f0a20a1b7a1f418181003ebda695a",
+            "name": "Create a new Category.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/categories.json",
+            "description": "Category's permalink is automatically generated from the given category's name.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "a8d7563c9c4b60dda6986e857ee86622",
+            "name": "Delete an existing Category.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/categories\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "64eb1cfd3121c18bf4e1033a06b1f21b",
+            "name": "Retrieve a single Category.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/categories\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed23a3f6b532790f41ac842b24b648de",
+            "name": "Modify an existing Category.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/categories\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "21ba8de5f610448e3356b248aaab28e7",
+            "name": "Retrieve all Checkout Custom Fields.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "61402dffe3033c523897c9dcf71cf95c",
+            "name": "Create a new CheckoutCustomField.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "1b75ad23405f577e16966ad0eaf98934",
+            "name": "Delete an existing CheckoutCustomField.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "d9035ff26d4ba5a9d9e8da9e5f031bda",
+            "name": "Retrieve a single CheckoutCustomField.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "a1b293bd4740ab7dc73cefc3e86bd2f5",
+            "name": "Update a CheckoutCustomField.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "6cad632c9b8075d93d0d4337ef911f60",
+            "name": "Retrieve all Countries.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/countries.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "16f7e0f37aaf8f278dc14f45c2a5251a",
+            "name": "Retrieve a single Country information.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/countries\/{country_code}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country_code",
+                    "description": "ISO3166 Country Code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "974fe24f89daa3bb283ff201546180ca",
+            "name": "Retrieve all Regions from a single Country.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/countries\/{country_code}\/regions.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country_code",
+                    "description": "ISO3166 Country Code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "373ca67651d4b628f61665ff80a0d2f0",
+            "name": "Retrieve a single Region information object.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/countries\/{country_code}\/regions\/{region_code}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "country_code",
+                    "description": "ISO3166 Country Code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "region_code",
+                    "description": "Region Code",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "8f8adc54b02de833f31b758f765ebb74",
+            "name": "Retrieve all Customer Categories.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "56ec3ca2a7fe94fc4549b0e3d09e94c6",
+            "name": "Create a new CustomerCategory.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "89fd3d17194d34584c797276510cd38f",
+            "name": "Delete an existing CustomerCategory.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "77735909117875d44d6681f508f1af33",
+            "name": "Retrieve a single CustomerCategory.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c040f201c579b8ae155d58b051a57f96",
+            "name": "Update a CustomerCategory.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "ec21504bd1d60631d7e01c1074bd63d5",
+            "name": "Delete Customers from an existing CustomerCategory.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}\/customers.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "e5b711289c0ca95b361b509127b50193",
+            "name": "Retrieves the customers in a CustomerCategory.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}\/customers.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c756b4ba7c0c57c4a2fa9da58b54fa10",
+            "name": "Adds Customers to a CustomerCategory.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}\/customers.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "51eb933a8e96f8866897db558d83ef94",
+            "name": "Retrieve all Customers.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customers.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "66c6c4529b266dcd5e1533edf25b6ccb",
+            "name": "Create a new Customer.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customers.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "5d0c513279807385bb3fc6b68344f91d",
+            "name": "Retrieve a single Customer.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customers\/email\/{email}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "email",
+                    "description": "Email of the Customer",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "597f884cd19270a6a5a93551000f04f4",
+            "name": "Delete an existing Category.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customers\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "0c5a260e78fedf835368a773941cfec5",
+            "name": "Retrieve a single Customer.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customers\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "aaa08cbe5c953d09c0c700d88ec93b08",
+            "name": "Update a new Customer.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/customers\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "2a5b59c35a15bf3d2ceb2e7dfcb4c274",
+            "name": "Retrieve all Store's Custom Fields.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/fields.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "7a2bf0475857ed4a360b54291429f037",
+            "name": "Create a new Custom Field.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/fields.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "d11fb88474c5543c09fb3db8817623b7",
+            "name": "Retrieve all Hooks.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/hooks.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "658bd8dbc5f1580018d0de3854d1249d",
+            "name": "Create a new Hook.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/hooks.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "98737f96ebceffe551702620fd372c98",
+            "name": "Delete an existing Hook.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/hooks\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "881a796d39241ffba8c6ea17b0e4e567",
+            "name": "Retrieve a single Hook.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/hooks\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "dacebb4d7a97973bfe4fe228fda6d00f",
+            "name": "Update a Hook.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/hooks\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c48526d5232159f67cede1ec29fada46",
+            "name": "Create a Store JSApp",
+            "url": "http:\/\/api.jumpseller.com\/v1\/jsapps.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c09e16deeae8537d912d49c2e8ede905",
+            "name": "Delete an existing JSApp.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/jsapps\/{code}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "code",
+                    "description": "Code of the App",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "e6dccc48f4fba8bd6055e5b60c7231bf",
+            "name": "Retrieve a JSApp",
+            "url": "http:\/\/api.jumpseller.com\/v1\/jsapps\/{code}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "code",
+                    "description": "Code of the App",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed91c4423f9a902bbe9c72d1081c0501",
+            "name": "Retrieve all Orders.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "22f3ee4fb88b77e47e3c4bc0cee0ea03",
+            "name": "Create a new Order.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders.json",
+            "description": "Use the JSON format:<br\/>'{ \"order\": {\"status\": \"Paid\", \"shipping_method_id\": 123, \"products\": [{ \"id\": 123, \"qty\": 1}], \"customer\": {\"id\": 123}}}'<br\/>or in CURL:<br\/>curl -X POST -d '{ \"order\": {\"status\": \"Paid\", \"shipping_method_id\": 123, \"products\": [{ \"id\": 123, \"qty\": 1}], \"customer\": {\"id\": 123}}}' \"https:\/\/api.jumpseller.com\/v1\/orders.json?login=storecode&authtoken=XXXXX\" -H \"Content-Type:application\/json\" ",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "6ca6484bcdb2008b61ec7b9e84634f07",
+            "name": "Retrieve orders filter by status.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders\/status\/{status}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "Status of the Order used as filter",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c608c073409fbc291705e76ed0653627",
+            "name": "Retrieve a single Order.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "5e07de47203ed741ec3c200d30858ec3",
+            "name": "Modify an existing Order.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}.json",
+            "description": "Only 'status', 'tracking_number', 'tracking_company', 'additional_information' and 'additional_fields' are available for update.<br\/>Use the JSON format:<br\/>'{ \"order\": {\"status\": \"Paid\", \"tracking_company\": \"other\", \"tracking_number\": \"123456789\", \"additional_information\": \"My custom message.\", \"additional_fields\": [{\"label\": \"Gift Name\", \"value\": \"Duarte\"}, {\"label\": \"Gift Wrapping Color\", \"value\": \"Green\"}]} }}'<br\/>or in CURL:<br\/>curl -X PUT -d '{ \"order\": {\"status\": \"Paid\", \"additional_in",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "9f4ffde19f9f116b96e402bf0831a9ce",
+            "name": "Retrieve all Order History.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}\/history.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "700000054b6579cbade228e867f91cab",
+            "name": "Create a new Order History Entry.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}\/history.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "600e2c469ce20f9403c6fad9908c53fb",
+            "name": "Retrieve all Store's Payment Methods.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/payment_methods.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "81b616b915a974ce74f56e441aa8c584",
+            "name": "Retrieve a single Payment Method.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/payment_methods\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "eff3f63fc6e0ff2057e4d9376167369b",
+            "name": "Retrieve all Products.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "10cb469c0287653936da1fc1a2ef0ca1",
+            "name": "Create a new Product.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "faa00b5dfdcdbbdf1e739bc6094d816d",
+            "name": "Retrieves Products after the given id.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/after\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "479da1325dca5739e6f232143964e789",
+            "name": "Retrieve Products filtered by category.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/category\/{category_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "category_id",
+                    "description": "Category ID of the Product used as filter",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "bc94627263cd3aa0111427af3e8c968e",
+            "name": "Count Products filtered by category.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/category\/{category_id}\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "category_id",
+                    "description": "Category ID of the Product used as filter",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "f716394c85f5146633087e929704103f",
+            "name": "Count all Products.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "436417d0b9ef7abb8c15b84da8f836fa",
+            "name": "Retrieve a Product List from a query.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/search.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "query",
+                    "description": "Query for the Product",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "bbf07bcc85677a26fa843affd06d560e",
+            "name": "Retrieve a single Product by SKU.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/sku\/{sku}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sku",
+                    "description": "SKU of the Product",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "0a439596b49f1d6ed9f8309b7254fb18",
+            "name": "Retrieve Products filtered by status.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/status\/{status}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "Status of the Order used as filter",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c71f59a29783525850edd5db21739841",
+            "name": "Count Products filtered by status.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/status\/{status}\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "status",
+                    "description": "Status of the Order used as filter",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "7b7cb150bddbecc9da912fa808960567",
+            "name": "Delete an existing Product.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "b5e5df70c662726cef9c2b23b7b923dd",
+            "name": "Retrieve a single Product.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "e7ec20aabf1f8bd6db968a869bdd7d9a",
+            "name": "Modify an existing Product.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c8f1d2986d0796aca13a27cc60f92d51",
+            "name": "Retrieve all Product Custom Fields",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/fields.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "13b821524d52cfcb0b1b4e9c0a1f14c8",
+            "name": "Create a new Product Custom Field.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/fields.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "4820d3d96a5fe391c0181cef62b48129",
+            "name": "Count all Product Custom Fields.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/fields\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "b354dc455b119d7de1dd5f8879f9952e",
+            "name": "Retrieve all Product Images.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "e2aa1b31343d7f0f13487ffdc86ba69e",
+            "name": "Create a new Product Image.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "e96e8302283a792750bde49898a84736",
+            "name": "Count all Product Images.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "4c4b02bc0d9f6c234ee7c3a59b2d2408",
+            "name": "Delete a Product Image.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images\/{image_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "image_id",
+                    "description": "Id of the Product Image",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "1999ae933bc345e3e073c173b4e53f2d",
+            "name": "Create a new Product Image.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images\/{image_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "image_id",
+                    "description": "Id of the Product Image",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "9bd505b1f57cda12d1d6c0af6a62dfe5",
+            "name": "Retrieve all Product Options.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "ff3af239e556ea5c63b31534128ec48a",
+            "name": "Create a new Product Option.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c5b836e720a5f28abeb8c635cd099d36",
+            "name": "Count all Product Options.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "186f18688ced025a3e5b6debb80be190",
+            "name": "Delete a Product Option.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "7a334daa9712b7095cc44f0ccc1a0588",
+            "name": "Create a new Product Option.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "0dd1eb84a9af4cb23e04b9c6541ed921",
+            "name": "Modify an existing Product Option.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "74820551c41ea0335b03a2fe3c89d383",
+            "name": "Retrieve all Product Option Values.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "40690962b30e4417588cdab75a8eeb01",
+            "name": "Create a new Product Option Value.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "a9e2d8abfd5b01d23cd44cb6f28c1697",
+            "name": "Count all Product Option Values.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "d7cca6ffd27e28429855ed910398ecb2",
+            "name": "Delete a Product Option Value.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/{value_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value_id",
+                    "description": "ID of the Product Option Value",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "507ff81a595358b64c9be502d78c8804",
+            "name": "Create a new Product Option Value.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/{value_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value_id",
+                    "description": "ID of the Product Option Value",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "e81d29dc4d4751ed7905efc34331b93d",
+            "name": "Modify an existing Product Option Value.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/{value_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "option_id",
+                    "description": "Id of the Product Option",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "value_id",
+                    "description": "ID of the Product Option Value",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "dca6b92519982ed9fac74782f399cf30",
+            "name": "Retrieve all Product Variants.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "dc83df9b4cadd139e817370aff454f5c",
+            "name": "Create a new Product Variant.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "401d28b587ac8d635390d9390d55e479",
+            "name": "Count all Product Variants.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants\/count.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "502299dca950bdaf89db7e3708736e01",
+            "name": "Retrieve a single Product Variant.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants\/{variant_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "variant_id",
+                    "description": "Id of the Product Variant",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "80b3973e959be9adcbafe6030c0cff78",
+            "name": "Modify an existing Product Variant.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants\/{variant_id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "variant_id",
+                    "description": "Id of the Product Variant",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "24b8b1ffde115ba9bec04980cb39c92b",
+            "name": "Retrieve all Promotions.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/promotions.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Promotions' list restriction (default: 50 | max: 200).",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Promotions' list page (default: 1).",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "f9fb67034053b276f196733509afcf1e",
+            "name": "Create a new Promotion.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/promotions.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "c3d9b300d85a9f91ad3ff3b611b674a2",
+            "name": "Delete an existing Promotion.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/promotions\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "9367dbcd6a39a0dc1f1caa680695233e",
+            "name": "Retrieve a single Promotion.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/promotions\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "9cf93f1aa78155326e790c94eeb38c94",
+            "name": "Update a Promotion.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/promotions\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "7ba51e4df48d97f2c595a9df06e35264",
+            "name": "Retrieve Store Information",
+            "url": "http:\/\/api.jumpseller.com\/v1\/store\/info.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "381556d49db8dca0ee934136bcf70ae1",
+            "name": "Retrieve Store Languages",
+            "url": "http:\/\/api.jumpseller.com\/v1\/store\/languages.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "5ad53e5c33e764debaef728fedf3c127",
+            "name": "Retrieve all Taxes.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/taxes.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "ebca3d557d1e14b2bbe3669841054fe7",
+            "name": "Create a new Tax.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/taxes.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "d968f5ffe39a8e05a1062d0ca520b947",
+            "name": "Retrieve a single Tax information.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/taxes\/{id}.json",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        },
+        {
+            "id": "7c0f99e1b960ad3cbbfb4cb4b634aa20",
+            "name": "Retrieve orders filtered by Order Id.",
+            "url": "http:\/\/api.jumpseller.com\/v1\/orders\/after\/{id}.json",
+            "description": "For example the GET \/orders\/after\/5000 will return Order 5001, 5002, 5003, etc.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "id",
+                    "description": "Id of the Category",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "rawModeData": ""
+        }
+    ]
+}
