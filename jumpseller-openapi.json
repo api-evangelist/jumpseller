@@ -1,0 +1,2691 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1",
+        "title": "Jumpseller",
+        "description": "Explore all our endpoints with your own set of of access tokens. All changes affect your production Jumpseller store.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.jumpseller.com\/v1"
+    ],
+    "paths": {
+        "\/apps.json": {
+            "get": {
+                "summary": "Get Apps",
+                "description": "Retrieve all jumpseller apps..",
+                "operationId": "GetAppsJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/categories.json": {
+            "get": {
+                "summary": "Get Categories",
+                "description": "Retrieve all categories..",
+                "operationId": "GetCategoriesJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Categories",
+                "description": "Create a new category..",
+                "operationId": "PostCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/categories\/{id}.json": {
+            "delete": {
+                "summary": "Delete Categories",
+                "description": "Delete an existing category..",
+                "operationId": "DeleteCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Categories",
+                "description": "Retrieve a single category..",
+                "operationId": "GetCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Categories",
+                "description": "Modify an existing category..",
+                "operationId": "PutCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/checkout_custom_fields.json": {
+            "get": {
+                "summary": "Get Checkout Custom Fields",
+                "description": "Retrieve all checkout custom fields..",
+                "operationId": "GetCheckoutCustomFieldsJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Checkout Custom Fields",
+                "description": "Create a new checkoutcustomfield..",
+                "operationId": "PostCheckoutCustomFieldsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/checkout_custom_fields\/{id}.json": {
+            "delete": {
+                "summary": "Delete Checkout Custom Fields",
+                "description": "Delete an existing checkoutcustomfield..",
+                "operationId": "DeleteCheckoutCustomFieldsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Checkout Custom Fields",
+                "description": "Retrieve a single checkoutcustomfield..",
+                "operationId": "GetCheckoutCustomFieldsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Checkout Custom Fields",
+                "description": "Update a checkoutcustomfield..",
+                "operationId": "PutCheckoutCustomFieldsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/countries.json": {
+            "get": {
+                "summary": "Get Countries",
+                "description": "Retrieve all countries..",
+                "operationId": "GetCountriesJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/countries\/{country_code}.json": {
+            "get": {
+                "summary": "Get Countries Country Code",
+                "description": "Retrieve a single country information..",
+                "operationId": "GetCountriesCountryCodeJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country_code",
+                        "in": "path",
+                        "description": "ISO3166 Country Code"
+                    }
+                ]
+            }
+        },
+        "\/countries\/{country_code}\/regions.json": {
+            "get": {
+                "summary": "Get Countries Country Code Regions",
+                "description": "Retrieve all regions from a single country..",
+                "operationId": "GetCountriesCountryCodeRegionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country_code",
+                        "in": "path",
+                        "description": "ISO3166 Country Code"
+                    }
+                ]
+            }
+        },
+        "\/countries\/{country_code}\/regions\/{region_code}.json": {
+            "get": {
+                "summary": "Get Countries Country Code Regions Region Code",
+                "description": "Retrieve a single region information object..",
+                "operationId": "GetCountriesCountryCodeRegionsRegionCodeJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "country_code",
+                        "in": "path",
+                        "description": "ISO3166 Country Code"
+                    },
+                    {
+                        "name": "region_code",
+                        "in": "path",
+                        "description": "Region Code"
+                    }
+                ]
+            }
+        },
+        "\/customer_categories.json": {
+            "get": {
+                "summary": "Get Customer Categories",
+                "description": "Retrieve all customer categories..",
+                "operationId": "GetCustomerCategoriesJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Customer Categories",
+                "description": "Create a new customercategory..",
+                "operationId": "PostCustomerCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/customer_categories\/{id}.json": {
+            "delete": {
+                "summary": "Delete Customer Categories",
+                "description": "Delete an existing customercategory..",
+                "operationId": "DeleteCustomerCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Customer Categories",
+                "description": "Retrieve a single customercategory..",
+                "operationId": "GetCustomerCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Customer Categories",
+                "description": "Update a customercategory..",
+                "operationId": "PutCustomerCategoriesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/customer_categories\/{id}\/customers.json": {
+            "delete": {
+                "summary": "Delete Customer Categories Customers",
+                "description": "Delete customers from an existing customercategory..",
+                "operationId": "DeleteCustomerCategoriesCustomersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Customer Categories Customers",
+                "description": "Retrieves the customers in a customercategory..",
+                "operationId": "GetCustomerCategoriesCustomersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Customer Categories Customers",
+                "description": "Adds customers to a customercategory..",
+                "operationId": "PostCustomerCategoriesCustomersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/customers.json": {
+            "get": {
+                "summary": "Get Customers",
+                "description": "Retrieve all customers..",
+                "operationId": "GetCustomersJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Customers",
+                "description": "Create a new customer..",
+                "operationId": "PostCustomersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/customers\/email\/{email}.json": {
+            "get": {
+                "summary": "Get Customers Email Email",
+                "description": "Retrieve a single customer..",
+                "operationId": "GetCustomersEmailEmailJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "path",
+                        "description": "Email of the Customer"
+                    }
+                ]
+            }
+        },
+        "\/customers\/{id}.json": {
+            "delete": {
+                "summary": "Delete Customers",
+                "description": "Delete an existing category..",
+                "operationId": "DeleteCustomersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Customers",
+                "description": "Retrieve a single customer..",
+                "operationId": "GetCustomersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Customers",
+                "description": "Update a new customer..",
+                "operationId": "PutCustomersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/fields.json": {
+            "get": {
+                "summary": "Get Fields",
+                "description": "",
+                "operationId": "GetFieldsJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Fields",
+                "description": "",
+                "operationId": "PostFieldsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/hooks.json": {
+            "get": {
+                "summary": "Get Hooks",
+                "description": "",
+                "operationId": "GetHooksJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Hooks",
+                "description": "",
+                "operationId": "PostHooksJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/hooks\/{id}.json": {
+            "delete": {
+                "summary": "Delete Hooks",
+                "description": "",
+                "operationId": "DeleteHooksJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Hooks",
+                "description": "",
+                "operationId": "GetHooksJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Hooks",
+                "description": "",
+                "operationId": "PutHooksJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/jsapps.json": {
+            "post": {
+                "summary": "Post Jsapps",
+                "description": "",
+                "operationId": "PostJsappsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/jsapps\/{code}.json": {
+            "delete": {
+                "summary": "Delete Jsapps Code",
+                "description": "",
+                "operationId": "DeleteJsappsCodeJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "code",
+                        "in": "path",
+                        "description": "Code of the App"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Jsapps Code",
+                "description": "",
+                "operationId": "GetJsappsCodeJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "code",
+                        "in": "path",
+                        "description": "Code of the App"
+                    }
+                ]
+            }
+        },
+        "\/orders.json": {
+            "get": {
+                "summary": "Get Orders",
+                "description": "",
+                "operationId": "GetOrdersJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Orders",
+                "description": "Use the JSON format:<br\/>'{ \"order\": {\"status\": \"Paid\", \"shipping_method_id\": 123, \"products\": [{ \"id\": 123, \"qty\": 1}], \"customer\": {\"id\": 123}}}'<br\/>or in CURL:<br\/>curl -X POST -d '{ \"order\": {\"status\": \"Paid\", \"shipping_method_id\": 123, \"products\": [{ \"id\": 123, \"qty\": 1}], \"customer\": {\"id\": 123}}}' \"https:\/\/api.jumpseller.com\/v1\/orders.json?login=storecode&authtoken=XXXXX\" -H \"Content-Type:application\/json\" ",
+                "operationId": "PostOrdersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/orders\/status\/{status}.json": {
+            "get": {
+                "summary": "Get Orders Status Status",
+                "description": "",
+                "operationId": "GetOrdersStatusStatusJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "status",
+                        "in": "path",
+                        "description": "Status of the Order used as filter"
+                    }
+                ]
+            }
+        },
+        "\/orders\/{id}.json": {
+            "get": {
+                "summary": "Get Orders",
+                "description": "",
+                "operationId": "GetOrdersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Orders",
+                "description": "Only 'status', 'tracking_number', 'tracking_company', 'additional_information' and 'additional_fields' are available for update.<br\/>Use the JSON format:<br\/>'{ \"order\": {\"status\": \"Paid\", \"tracking_company\": \"other\", \"tracking_number\": \"123456789\", \"additional_information\": \"My custom message.\", \"additional_fields\": [{\"label\": \"Gift Name\", \"value\": \"Duarte\"}, {\"label\": \"Gift Wrapping Color\", \"value\": \"Green\"}]} }}'<br\/>or in CURL:<br\/>curl -X PUT -d '{ \"order\": {\"status\": \"Paid\", \"additional_in",
+                "operationId": "PutOrdersJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/orders\/{id}\/history.json": {
+            "get": {
+                "summary": "Get Orders History",
+                "description": "",
+                "operationId": "GetOrdersHistoryJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Orders History",
+                "description": "",
+                "operationId": "PostOrdersHistoryJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/payment_methods.json": {
+            "get": {
+                "summary": "Get Payment Methods",
+                "description": "",
+                "operationId": "GetPaymentMethodsJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/payment_methods\/{id}.json": {
+            "get": {
+                "summary": "Get Payment Methods",
+                "description": "",
+                "operationId": "GetPaymentMethodsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            }
+        },
+        "\/products.json": {
+            "get": {
+                "summary": "Get Products",
+                "description": "",
+                "operationId": "GetProductsJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Products",
+                "description": "",
+                "operationId": "PostProductsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/after\/{id}.json": {
+            "get": {
+                "summary": "Get Products After",
+                "description": "",
+                "operationId": "GetProductsAfterJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/products\/category\/{category_id}.json": {
+            "get": {
+                "summary": "Get Products Category Category",
+                "description": "",
+                "operationId": "GetProductsCategoryCategoryJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "category_id",
+                        "in": "path",
+                        "description": "Category ID of the Product used as filter"
+                    }
+                ]
+            }
+        },
+        "\/products\/category\/{category_id}\/count.json": {
+            "get": {
+                "summary": "Get Products Category Category Count",
+                "description": "",
+                "operationId": "GetProductsCategoryCategoryCountJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "category_id",
+                        "in": "path",
+                        "description": "Category ID of the Product used as filter"
+                    }
+                ]
+            }
+        },
+        "\/products\/count.json": {
+            "get": {
+                "summary": "Get Products Count",
+                "description": "",
+                "operationId": "GetProductsCountJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/products\/search.json": {
+            "get": {
+                "summary": "Get Products Search",
+                "description": "",
+                "operationId": "GetProductsSearchJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "Query for the Product"
+                    }
+                ]
+            }
+        },
+        "\/products\/sku\/{sku}.json": {
+            "get": {
+                "summary": "Get Products Sku Sku",
+                "description": "",
+                "operationId": "GetProductsSkuSkuJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "sku",
+                        "in": "path",
+                        "description": "SKU of the Product"
+                    }
+                ]
+            }
+        },
+        "\/products\/status\/{status}.json": {
+            "get": {
+                "summary": "Get Products Status Status",
+                "description": "",
+                "operationId": "GetProductsStatusStatusJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "status",
+                        "in": "path",
+                        "description": "Status of the Order used as filter"
+                    }
+                ]
+            }
+        },
+        "\/products\/status\/{status}\/count.json": {
+            "get": {
+                "summary": "Get Products Status Status Count",
+                "description": "",
+                "operationId": "GetProductsStatusStatusCountJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "status",
+                        "in": "path",
+                        "description": "Status of the Order used as filter"
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}.json": {
+            "delete": {
+                "summary": "Delete Products",
+                "description": "",
+                "operationId": "DeleteProductsJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get Products",
+                "description": "",
+                "operationId": "GetProductsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Products",
+                "description": "",
+                "operationId": "PutProductsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/fields.json": {
+            "get": {
+                "summary": "Get Products Fields",
+                "description": "",
+                "operationId": "GetProductsFieldsJson",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "post": {
+                "summary": "Post Products Fields",
+                "description": "",
+                "operationId": "PostProductsFieldsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/fields\/count.json": {
+            "get": {
+                "summary": "Get Products Fields Count",
+                "description": "",
+                "operationId": "GetProductsFieldsCountJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/images.json": {
+            "get": {
+                "summary": "Get Products Images",
+                "description": "",
+                "operationId": "GetProductsImagesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Products Images",
+                "description": "",
+                "operationId": "PostProductsImagesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/images\/count.json": {
+            "get": {
+                "summary": "Get Products Images Count",
+                "description": "",
+                "operationId": "GetProductsImagesCountJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/images\/{image_id}.json": {
+            "delete": {
+                "summary": "Delete Products Images Image",
+                "description": "",
+                "operationId": "DeleteProductsImagesImageJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "image_id",
+                        "in": "path",
+                        "description": "Id of the Product Image"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Products Images Image",
+                "description": "",
+                "operationId": "GetProductsImagesImageJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "image_id",
+                        "in": "path",
+                        "description": "Id of the Product Image"
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/options.json": {
+            "get": {
+                "summary": "Get Products Options",
+                "description": "",
+                "operationId": "GetProductsOptionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Products Options",
+                "description": "",
+                "operationId": "PostProductsOptionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/options\/count.json": {
+            "get": {
+                "summary": "Get Products Options Count",
+                "description": "",
+                "operationId": "GetProductsOptionsCountJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/options\/{option_id}.json": {
+            "delete": {
+                "summary": "Delete Products Options Option",
+                "description": "",
+                "operationId": "DeleteProductsOptionsOptionJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Products Options Option",
+                "description": "",
+                "operationId": "GetProductsOptionsOptionJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Products Options Option",
+                "description": "",
+                "operationId": "PutProductsOptionsOptionJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/options\/{option_id}\/values.json": {
+            "get": {
+                "summary": "Get Products Options Option Values",
+                "description": "",
+                "operationId": "GetProductsOptionsOptionValuesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Products Options Option Values",
+                "description": "",
+                "operationId": "PostProductsOptionsOptionValuesJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/options\/{option_id}\/values\/count.json": {
+            "get": {
+                "summary": "Get Products Options Option Values Count",
+                "description": "",
+                "operationId": "GetProductsOptionsOptionValuesCountJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/options\/{option_id}\/values\/{value_id}.json": {
+            "delete": {
+                "summary": "Delete Products Options Option Values Value",
+                "description": "",
+                "operationId": "DeleteProductsOptionsOptionValuesValueJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    },
+                    {
+                        "name": "value_id",
+                        "in": "path",
+                        "description": "ID of the Product Option Value"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Products Options Option Values Value",
+                "description": "",
+                "operationId": "GetProductsOptionsOptionValuesValueJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    },
+                    {
+                        "name": "value_id",
+                        "in": "path",
+                        "description": "ID of the Product Option Value"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Products Options Option Values Value",
+                "description": "",
+                "operationId": "PutProductsOptionsOptionValuesValueJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "option_id",
+                        "in": "path",
+                        "description": "Id of the Product Option"
+                    },
+                    {
+                        "name": "value_id",
+                        "in": "path",
+                        "description": "ID of the Product Option Value"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/variants.json": {
+            "get": {
+                "summary": "Get Products Variants",
+                "description": "",
+                "operationId": "GetProductsVariantsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Products Variants",
+                "description": "",
+                "operationId": "PostProductsVariantsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/variants\/count.json": {
+            "get": {
+                "summary": "Get Products Variants Count",
+                "description": "",
+                "operationId": "GetProductsVariantsCountJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            }
+        },
+        "\/products\/{id}\/variants\/{variant_id}.json": {
+            "get": {
+                "summary": "Get Products Variants Variant",
+                "description": "",
+                "operationId": "GetProductsVariantsVariantJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "variant_id",
+                        "in": "path",
+                        "description": "Id of the Product Variant"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Products Variants Variant",
+                "description": "",
+                "operationId": "PutProductsVariantsVariantJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "variant_id",
+                        "in": "path",
+                        "description": "Id of the Product Variant"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/promotions.json": {
+            "get": {
+                "summary": "Get Promotions",
+                "description": "",
+                "operationId": "GetPromotionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Promotions' list restriction (default: 50 | max: 200)."
+                    },
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "Promotions' list page (default: 1)."
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Promotions",
+                "description": "",
+                "operationId": "PostPromotionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/promotions\/{id}.json": {
+            "delete": {
+                "summary": "Delete Promotions",
+                "description": "",
+                "operationId": "DeletePromotionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Promotions",
+                "description": "",
+                "operationId": "GetPromotionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Promotions",
+                "description": "",
+                "operationId": "PutPromotionsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id of the Category"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/settings.json": {
+            "post": {
+                "summary": "Post Settings",
+                "description": "",
+                "operationId": "PostSettingsJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/settings\/{name}.json": {
+            "get": {
+                "summary": "Get Settings Name",
+                "description": "",
+                "operationId": "GetSettingsNameJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "description": "Name of the Store Setting"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Settings Name",
+                "description": "",
+                "operationId": "PutSettingsNameJson",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "description": "Name of the Store Setting"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Category parameters."
+                    }
+                ]
+            }
+        },
+        "\/store\/info.json": {
+            "get": {
+                "summary": "Get Store Info",
+                "description": "",
+                "operationId": "GetStoreInfoJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/store\/languages.json": {
+            "get": {
+                "summary": "Get Store Languages",
+                "description": "",
+                "operationId": "GetStoreLanguagesJson",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "App": {
+                "type": "object",
+                "properties": {
+                    "apps": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "AppFields": {
+                "type": "object",
+                "properties": {
+                    "author": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "js": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "page": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "BillingAddress": {
+                "type": "object",
+                "properties": {
+                    "address": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "municipality": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "postal": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "region": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "surname": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "taxid": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Category": {
+                "type": "object"
+            },
+            "CategoryEdit": {
+                "type": "object"
+            },
+            "CategoryEditFields": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "parent_id": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CategoryFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "parent_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "permalink": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CheckoutCustomField": {
+                "type": "object"
+            },
+            "CheckoutCustomFieldEdit": {
+                "type": "object"
+            },
+            "CheckoutCustomFieldEditFields": {
+                "type": "object",
+                "properties": {
+                    "area": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "custom_field_select_options": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "deletable": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CheckoutCustomFieldFields": {
+                "type": "object",
+                "properties": {
+                    "area": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "custom_field_select_options": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "deletable": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Count": {
+                "type": "object",
+                "properties": {
+                    "count": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Country": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Customer": {
+                "type": "object"
+            },
+            "CustomerCategory": {
+                "type": "object"
+            },
+            "CustomerCategoryEdit": {
+                "type": "object"
+            },
+            "CustomerCategoryEditFields": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CustomerCategoryFields": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CustomerFields": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CustomerFieldsWithPassword": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "password_confirmation": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CustomerFieldsWithPasswordNoID": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "password_confirmation": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CustomerWithPassword": {
+                "type": "object"
+            },
+            "CustomerWithPasswordNoID": {
+                "type": "object"
+            },
+            "Field": {
+                "type": "object"
+            },
+            "FieldFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "label": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "values": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Hook": {
+                "type": "object"
+            },
+            "HookEdit": {
+                "type": "object"
+            },
+            "HookEditFields": {
+                "type": "object",
+                "properties": {
+                    "event": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "HookFields": {
+                "type": "object",
+                "properties": {
+                    "created_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "event": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Id": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Image": {
+                "type": "object"
+            },
+            "ImageEdit": {
+                "type": "object"
+            },
+            "ImageEditFields": {
+                "type": "object",
+                "properties": {
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ImageFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "JSApp": {
+                "type": "object",
+                "properties": {
+                    "element": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "template": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Language": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "NotFound": {
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Order": {
+                "type": "object"
+            },
+            "OrderEdit": {
+                "type": "object"
+            },
+            "OrderEditFields": {
+                "type": "object",
+                "properties": {
+                    "additional_information": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "customer": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "products": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "shipping_method_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "tracking_company": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "tracking_number": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "OrderFields": {
+                "type": "object",
+                "properties": {
+                    "additional_information": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "discount": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "payment_information": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "payment_method_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "products": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "shipment_status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "shipping": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "shipping_method_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "shipping_method_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "subtotal": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "tax": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "total": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "tracking_company": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "tracking_number": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "tracking_url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "OrderHistory": {
+                "type": "object"
+            },
+            "OrderHistoryEdit": {
+                "type": "object"
+            },
+            "OrderHistoryEditFields": {
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "OrderHistoryFields": {
+                "type": "object",
+                "properties": {
+                    "created_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "OrderProduct": {
+                "type": "object",
+                "properties": {
+                    "discount": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "image": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "qty": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "variant_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "weight": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "PaymentMethod": {
+                "type": "object"
+            },
+            "PaymentMethodFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Product": {
+                "type": "object"
+            },
+            "ProductCustomField": {
+                "type": "object"
+            },
+            "ProductCustomFieldFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ProductEdit": {
+                "type": "object"
+            },
+            "ProductEditFields": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "diameter": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "featured": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "height": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "length": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "meta_description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "package_format": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "page_title": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "permalink": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock_unlimited": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "weight": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "width": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ProductFields": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "created_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "diameter": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "featured": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "height": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "images": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "length": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "package_format": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "permalink": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock_unlimited": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "variants": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "weight": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "width": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ProductOption": {
+                "type": "object"
+            },
+            "ProductOptionEdit": {
+                "type": "object"
+            },
+            "ProductOptionEditFields": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "option_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ProductOptionFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "option_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "values": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ProductOptionValue": {
+                "type": "object"
+            },
+            "ProductOptionValueEdit": {
+                "type": "object"
+            },
+            "ProductOptionValueEditFields": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ProductOptionValueFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "position": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Promotion": {
+                "type": "object"
+            },
+            "PromotionEdit": {
+                "type": "object"
+            },
+            "PromotionEditFields": {
+                "type": "object",
+                "properties": {
+                    "begins_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "buys_at_least": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "categories": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "condition_price": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "condition_qty": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "cumulative": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "customer_categories": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "customers": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "discount_amount_fix": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "discount_amount_percent": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "discount_target": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "expires_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "lasts": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "max_times_used": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "products": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "PromotionFields": {
+                "type": "object",
+                "properties": {
+                    "begins_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "categories": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "condition_price": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "condition_qty": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "cumulative": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "customer_categories": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "discount_amount_fix": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "discount_amount_percent": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "discount_target": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "expires_at": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "max_times_used": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "products": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "times_used": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Region": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Setting": {
+                "type": "object"
+            },
+            "SettingEdit": {
+                "type": "object"
+            },
+            "SettingEditFields": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "SettingFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ShippingAddress": {
+                "type": "object",
+                "properties": {
+                    "address": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "municipality": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "postal": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "region": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "surname": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "StatusInvalid": {
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Store": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "hooks_token": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "logo": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "timezone": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Variant": {
+                "type": "object"
+            },
+            "VariantEdit": {
+                "type": "object"
+            },
+            "VariantEditFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "image_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock_unlimited": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "VariantFields": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stock_unlimited": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}
