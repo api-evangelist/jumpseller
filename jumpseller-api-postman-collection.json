@@ -1,5 +1,5 @@
 {
-    "id": "d8584aa5c47ebe051d8ec7814eee27f2",
+    "id": "b087ea05773e566f0bfe3ab97f2c3003",
     "name": "Jumpseller API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "5ca531be2df95858d7ed9146c74a96f0",
+            "id": "b5a115f122d8d14c833809f4d0a9034a",
             "name": "Retrieve all Jumpseller Apps.",
             "url": "http:\/\/api.jumpseller.com\/v1\/apps.json",
             "description": "",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "3aea514671897dca99b3e531be7e0b0f",
+            "id": "6e6b8171846ede4ed2986c999e0d33cd",
             "name": "Retrieve all Categories.",
             "url": "http:\/\/api.jumpseller.com\/v1\/categories.json",
             "description": "",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "437f0a20a1b7a1f418181003ebda695a",
+            "id": "5b75ba8aba8ab8c1134cdc980dea4541",
             "name": "Create a new Category.",
             "url": "http:\/\/api.jumpseller.com\/v1\/categories.json",
             "description": "Category's permalink is automatically generated from the given category's name.",
@@ -99,11 +99,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "a8d7563c9c4b60dda6986e857ee86622",
+            "id": "3dd640716353aa0070561f48b5ff1610",
             "name": "Delete an existing Category.",
             "url": "http:\/\/api.jumpseller.com\/v1\/categories\/{id}.json",
             "description": "",
@@ -137,11 +137,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "64eb1cfd3121c18bf4e1033a06b1f21b",
+            "id": "0004806200a1f723978929da94982b86",
             "name": "Retrieve a single Category.",
             "url": "http:\/\/api.jumpseller.com\/v1\/categories\/{id}.json",
             "description": "",
@@ -175,11 +175,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "ed23a3f6b532790f41ac842b24b648de",
+            "id": "0cc36d462d0d0391e3d13742d40fc204",
             "name": "Modify an existing Category.",
             "url": "http:\/\/api.jumpseller.com\/v1\/categories\/{id}.json",
             "description": "",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "21ba8de5f610448e3356b248aaab28e7",
+            "id": "8c79012778b3fd7e6baa3e90894a041c",
             "name": "Retrieve all Checkout Custom Fields.",
             "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields.json",
             "description": "",
@@ -244,11 +244,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "61402dffe3033c523897c9dcf71cf95c",
+            "id": "6d1aa95c28cf401f0b43e7d0d982f380",
             "name": "Create a new CheckoutCustomField.",
             "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields.json",
             "description": "",
@@ -275,11 +275,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "1b75ad23405f577e16966ad0eaf98934",
+            "id": "34092dfa9d2eb8da5f26c356e048e542",
             "name": "Delete an existing CheckoutCustomField.",
             "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields\/{id}.json",
             "description": "",
@@ -313,11 +313,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "d9035ff26d4ba5a9d9e8da9e5f031bda",
+            "id": "e43bc4629d6617c297558f017f216125",
             "name": "Retrieve a single CheckoutCustomField.",
             "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields\/{id}.json",
             "description": "",
@@ -351,11 +351,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "a1b293bd4740ab7dc73cefc3e86bd2f5",
+            "id": "98395330001647b4080cce9de85105b9",
             "name": "Update a CheckoutCustomField.",
             "url": "http:\/\/api.jumpseller.com\/v1\/checkout_custom_fields\/{id}.json",
             "description": "",
@@ -389,11 +389,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "6cad632c9b8075d93d0d4337ef911f60",
+            "id": "bd5edf46e55a6ead8bba163ad8d5d96f",
             "name": "Retrieve all Countries.",
             "url": "http:\/\/api.jumpseller.com\/v1\/countries.json",
             "description": "",
@@ -420,11 +420,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "16f7e0f37aaf8f278dc14f45c2a5251a",
+            "id": "94f5881344ad4e601f8f600dffebbf70",
             "name": "Retrieve a single Country information.",
             "url": "http:\/\/api.jumpseller.com\/v1\/countries\/{country_code}.json",
             "description": "",
@@ -458,11 +458,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "974fe24f89daa3bb283ff201546180ca",
+            "id": "f36d31934c53e01f5252d7810291f3dc",
             "name": "Retrieve all Regions from a single Country.",
             "url": "http:\/\/api.jumpseller.com\/v1\/countries\/{country_code}\/regions.json",
             "description": "",
@@ -496,11 +496,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "373ca67651d4b628f61665ff80a0d2f0",
+            "id": "ad57968404c7bbf2f35438c9ffe4df5f",
             "name": "Retrieve a single Region information object.",
             "url": "http:\/\/api.jumpseller.com\/v1\/countries\/{country_code}\/regions\/{region_code}.json",
             "description": "",
@@ -541,11 +541,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "8f8adc54b02de833f31b758f765ebb74",
+            "id": "6649795374d27be5a200dde6d228e5c2",
             "name": "Retrieve all Customer Categories.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories.json",
             "description": "",
@@ -572,11 +572,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "56ec3ca2a7fe94fc4549b0e3d09e94c6",
+            "id": "5ab04df54b54853a170b35f4107f4448",
             "name": "Create a new CustomerCategory.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories.json",
             "description": "",
@@ -603,11 +603,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "89fd3d17194d34584c797276510cd38f",
+            "id": "c31f45bfd3cc8cac21b87642d9124e23",
             "name": "Delete an existing CustomerCategory.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}.json",
             "description": "",
@@ -641,11 +641,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "77735909117875d44d6681f508f1af33",
+            "id": "2033f88b720d682d5f79ab3fb0550201",
             "name": "Retrieve a single CustomerCategory.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}.json",
             "description": "",
@@ -679,11 +679,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c040f201c579b8ae155d58b051a57f96",
+            "id": "c011f68380551ede421e0b587cc47390",
             "name": "Update a CustomerCategory.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}.json",
             "description": "",
@@ -717,11 +717,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "ec21504bd1d60631d7e01c1074bd63d5",
+            "id": "e796c13a69a1ea3f85c10f46977cc85d",
             "name": "Delete Customers from an existing CustomerCategory.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}\/customers.json",
             "description": "",
@@ -755,11 +755,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "e5b711289c0ca95b361b509127b50193",
+            "id": "1a0da4ce31bd53584fda2ee270fddd4a",
             "name": "Retrieves the customers in a CustomerCategory.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}\/customers.json",
             "description": "",
@@ -793,11 +793,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c756b4ba7c0c57c4a2fa9da58b54fa10",
+            "id": "9501d388f86f6ea082f9a54e6555d43b",
             "name": "Adds Customers to a CustomerCategory.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customer_categories\/{id}\/customers.json",
             "description": "",
@@ -831,11 +831,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "51eb933a8e96f8866897db558d83ef94",
+            "id": "b02e7eb3bf8732e29aa1058714f27b8f",
             "name": "Retrieve all Customers.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customers.json",
             "description": "",
@@ -862,11 +862,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "66c6c4529b266dcd5e1533edf25b6ccb",
+            "id": "3cfbbb1ad122c4c58a18066dc1490a32",
             "name": "Create a new Customer.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customers.json",
             "description": "",
@@ -893,11 +893,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "5d0c513279807385bb3fc6b68344f91d",
+            "id": "48c3318ae9c01b755624d40f70ac3fe2",
             "name": "Retrieve a single Customer.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customers\/email\/{email}.json",
             "description": "",
@@ -931,11 +931,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "597f884cd19270a6a5a93551000f04f4",
+            "id": "28bae48d3f230f15854d50133940fd4f",
             "name": "Delete an existing Category.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customers\/{id}.json",
             "description": "",
@@ -969,11 +969,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "0c5a260e78fedf835368a773941cfec5",
+            "id": "8b201e82205fac2e8d921569d40125ac",
             "name": "Retrieve a single Customer.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customers\/{id}.json",
             "description": "",
@@ -1007,11 +1007,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "aaa08cbe5c953d09c0c700d88ec93b08",
+            "id": "2970173969832e1fdbbaf6aa0d9bc356",
             "name": "Update a new Customer.",
             "url": "http:\/\/api.jumpseller.com\/v1\/customers\/{id}.json",
             "description": "",
@@ -1045,11 +1045,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "2a5b59c35a15bf3d2ceb2e7dfcb4c274",
+            "id": "b2efba2811eb56b0c75a1d584ddbc41a",
             "name": "Retrieve all Store's Custom Fields.",
             "url": "http:\/\/api.jumpseller.com\/v1\/fields.json",
             "description": "",
@@ -1076,11 +1076,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "7a2bf0475857ed4a360b54291429f037",
+            "id": "8c341f01b415b8e6838568e42fec8142",
             "name": "Create a new Custom Field.",
             "url": "http:\/\/api.jumpseller.com\/v1\/fields.json",
             "description": "",
@@ -1107,11 +1107,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "d11fb88474c5543c09fb3db8817623b7",
+            "id": "461485b85434e398a64b0d47aa74e6bc",
             "name": "Retrieve all Hooks.",
             "url": "http:\/\/api.jumpseller.com\/v1\/hooks.json",
             "description": "",
@@ -1138,11 +1138,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "658bd8dbc5f1580018d0de3854d1249d",
+            "id": "95eab3a4cfca4c265f8fe51ad1ea119d",
             "name": "Create a new Hook.",
             "url": "http:\/\/api.jumpseller.com\/v1\/hooks.json",
             "description": "",
@@ -1169,11 +1169,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "98737f96ebceffe551702620fd372c98",
+            "id": "a726bb96f814af8c999226d14ac9f7b1",
             "name": "Delete an existing Hook.",
             "url": "http:\/\/api.jumpseller.com\/v1\/hooks\/{id}.json",
             "description": "",
@@ -1207,11 +1207,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "881a796d39241ffba8c6ea17b0e4e567",
+            "id": "61e54c7eaa3664b210752751475d3bf6",
             "name": "Retrieve a single Hook.",
             "url": "http:\/\/api.jumpseller.com\/v1\/hooks\/{id}.json",
             "description": "",
@@ -1245,11 +1245,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "dacebb4d7a97973bfe4fe228fda6d00f",
+            "id": "649c81eec83a601493824b24114be66b",
             "name": "Update a Hook.",
             "url": "http:\/\/api.jumpseller.com\/v1\/hooks\/{id}.json",
             "description": "",
@@ -1283,11 +1283,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c48526d5232159f67cede1ec29fada46",
+            "id": "6fc9598201cf51242a0fa7733512f41b",
             "name": "Create a Store JSApp",
             "url": "http:\/\/api.jumpseller.com\/v1\/jsapps.json",
             "description": "",
@@ -1314,11 +1314,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c09e16deeae8537d912d49c2e8ede905",
+            "id": "0aaad8b0f64af7f7d30f5691d946502d",
             "name": "Delete an existing JSApp.",
             "url": "http:\/\/api.jumpseller.com\/v1\/jsapps\/{code}.json",
             "description": "",
@@ -1352,11 +1352,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "e6dccc48f4fba8bd6055e5b60c7231bf",
+            "id": "89bd609d8e170e1ba21f421fe1f6e74f",
             "name": "Retrieve a JSApp",
             "url": "http:\/\/api.jumpseller.com\/v1\/jsapps\/{code}.json",
             "description": "",
@@ -1390,11 +1390,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "ed91c4423f9a902bbe9c72d1081c0501",
+            "id": "f08ff5b59978c554ca49c2f3dd0c3748",
             "name": "Retrieve all Orders.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders.json",
             "description": "",
@@ -1421,11 +1421,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "22f3ee4fb88b77e47e3c4bc0cee0ea03",
+            "id": "b3b3f8c8dc3c108742a5ad301987e0b2",
             "name": "Create a new Order.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders.json",
             "description": "Use the JSON format:<br\/>'{ \"order\": {\"status\": \"Paid\", \"shipping_method_id\": 123, \"products\": [{ \"id\": 123, \"qty\": 1}], \"customer\": {\"id\": 123}}}'<br\/>or in CURL:<br\/>curl -X POST -d '{ \"order\": {\"status\": \"Paid\", \"shipping_method_id\": 123, \"products\": [{ \"id\": 123, \"qty\": 1}], \"customer\": {\"id\": 123}}}' \"https:\/\/api.jumpseller.com\/v1\/orders.json?login=storecode&authtoken=XXXXX\" -H \"Content-Type:application\/json\" ",
@@ -1452,11 +1452,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "6ca6484bcdb2008b61ec7b9e84634f07",
+            "id": "53eaced209eb4b2f303ffbb0c772c0db",
             "name": "Retrieve orders filter by status.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders\/status\/{status}.json",
             "description": "",
@@ -1490,11 +1490,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c608c073409fbc291705e76ed0653627",
+            "id": "9401fa5ae8ca92a8967d3a81e68a5ec3",
             "name": "Retrieve a single Order.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}.json",
             "description": "",
@@ -1528,11 +1528,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "5e07de47203ed741ec3c200d30858ec3",
+            "id": "5d07d8ebde592964c2e7aab1f855b6c4",
             "name": "Modify an existing Order.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}.json",
             "description": "Only 'status', 'tracking_number', 'tracking_company', 'additional_information' and 'additional_fields' are available for update.<br\/>Use the JSON format:<br\/>'{ \"order\": {\"status\": \"Paid\", \"tracking_company\": \"other\", \"tracking_number\": \"123456789\", \"additional_information\": \"My custom message.\", \"additional_fields\": [{\"label\": \"Gift Name\", \"value\": \"Duarte\"}, {\"label\": \"Gift Wrapping Color\", \"value\": \"Green\"}]} }}'<br\/>or in CURL:<br\/>curl -X PUT -d '{ \"order\": {\"status\": \"Paid\", \"additional_in",
@@ -1566,11 +1566,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "9f4ffde19f9f116b96e402bf0831a9ce",
+            "id": "a8963c318ece4ab3c2dd2fec2be227d6",
             "name": "Retrieve all Order History.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}\/history.json",
             "description": "",
@@ -1604,11 +1604,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "700000054b6579cbade228e867f91cab",
+            "id": "83c1fa02a6c4c0b70810d7098659c691",
             "name": "Create a new Order History Entry.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders\/{id}\/history.json",
             "description": "",
@@ -1642,11 +1642,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "600e2c469ce20f9403c6fad9908c53fb",
+            "id": "7360bf4932ab08a7044a3c8141c3343f",
             "name": "Retrieve all Store's Payment Methods.",
             "url": "http:\/\/api.jumpseller.com\/v1\/payment_methods.json",
             "description": "",
@@ -1673,11 +1673,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "81b616b915a974ce74f56e441aa8c584",
+            "id": "37053d69752638f004a5cbfb5dfc486f",
             "name": "Retrieve a single Payment Method.",
             "url": "http:\/\/api.jumpseller.com\/v1\/payment_methods\/{id}.json",
             "description": "",
@@ -1711,11 +1711,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "eff3f63fc6e0ff2057e4d9376167369b",
+            "id": "1c80ab987bc7c5160666a0faf12e5876",
             "name": "Retrieve all Products.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products.json",
             "description": "",
@@ -1742,11 +1742,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "10cb469c0287653936da1fc1a2ef0ca1",
+            "id": "c9e6472190bebc929651863b60a5b05e",
             "name": "Create a new Product.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products.json",
             "description": "",
@@ -1773,11 +1773,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "faa00b5dfdcdbbdf1e739bc6094d816d",
+            "id": "2338f7f901f5a4eec0d0fc3e6dd82f30",
             "name": "Retrieves Products after the given id.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/after\/{id}.json",
             "description": "",
@@ -1804,11 +1804,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "479da1325dca5739e6f232143964e789",
+            "id": "3a82f613ce5c42d56aa8e449ced00c3b",
             "name": "Retrieve Products filtered by category.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/category\/{category_id}.json",
             "description": "",
@@ -1842,11 +1842,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "bc94627263cd3aa0111427af3e8c968e",
+            "id": "4aeb8fae10c26dfd39927ae0e89b2f9f",
             "name": "Count Products filtered by category.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/category\/{category_id}\/count.json",
             "description": "",
@@ -1880,11 +1880,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "f716394c85f5146633087e929704103f",
+            "id": "16dd24ae9d9f5062abf8896188a37b85",
             "name": "Count all Products.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/count.json",
             "description": "",
@@ -1911,11 +1911,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "436417d0b9ef7abb8c15b84da8f836fa",
+            "id": "55401167138dc96f2b50f896b820e221",
             "name": "Retrieve a Product List from a query.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/search.json",
             "description": "",
@@ -1949,11 +1949,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "bbf07bcc85677a26fa843affd06d560e",
+            "id": "d101b13060d70e96d2efb8cd6eff146f",
             "name": "Retrieve a single Product by SKU.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/sku\/{sku}.json",
             "description": "",
@@ -1987,11 +1987,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "0a439596b49f1d6ed9f8309b7254fb18",
+            "id": "80dde407bafa2164035ed45c9dd882aa",
             "name": "Retrieve Products filtered by status.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/status\/{status}.json",
             "description": "",
@@ -2025,11 +2025,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c71f59a29783525850edd5db21739841",
+            "id": "71073ecae3c215fa40f98e615e3eb83b",
             "name": "Count Products filtered by status.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/status\/{status}\/count.json",
             "description": "",
@@ -2063,11 +2063,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "7b7cb150bddbecc9da912fa808960567",
+            "id": "4166a93db2d08c121129c198b7ab47bd",
             "name": "Delete an existing Product.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}.json",
             "description": "",
@@ -2094,11 +2094,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "b5e5df70c662726cef9c2b23b7b923dd",
+            "id": "90d159d10e491ac54f63b58066b907d9",
             "name": "Retrieve a single Product.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}.json",
             "description": "",
@@ -2132,11 +2132,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "e7ec20aabf1f8bd6db968a869bdd7d9a",
+            "id": "456cba5678d3a3d447b496d5bc932dfc",
             "name": "Modify an existing Product.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}.json",
             "description": "",
@@ -2163,11 +2163,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c8f1d2986d0796aca13a27cc60f92d51",
+            "id": "e886b23389857a4ea5971329d6d43449",
             "name": "Retrieve all Product Custom Fields",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/fields.json",
             "description": "",
@@ -2194,11 +2194,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "13b821524d52cfcb0b1b4e9c0a1f14c8",
+            "id": "f36111bad11d5a118dd91136c977d981",
             "name": "Create a new Product Custom Field.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/fields.json",
             "description": "",
@@ -2225,11 +2225,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "4820d3d96a5fe391c0181cef62b48129",
+            "id": "222d0cd4f138b6d4220ecf8d4ba99183",
             "name": "Count all Product Custom Fields.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/fields\/count.json",
             "description": "",
@@ -2263,11 +2263,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "b354dc455b119d7de1dd5f8879f9952e",
+            "id": "46bd9725f7f7f55e91d720f24ed40ed6",
             "name": "Retrieve all Product Images.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images.json",
             "description": "",
@@ -2301,11 +2301,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "e2aa1b31343d7f0f13487ffdc86ba69e",
+            "id": "525d45eb8f963bc895f410ba5ec5874e",
             "name": "Create a new Product Image.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images.json",
             "description": "",
@@ -2332,11 +2332,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "e96e8302283a792750bde49898a84736",
+            "id": "877e2ce9310ab579b06f7999b9f9c97f",
             "name": "Count all Product Images.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images\/count.json",
             "description": "",
@@ -2370,11 +2370,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "4c4b02bc0d9f6c234ee7c3a59b2d2408",
+            "id": "0ce6ba0aa2533676848e26e10a9e7472",
             "name": "Delete a Product Image.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images\/{image_id}.json",
             "description": "",
@@ -2408,11 +2408,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "1999ae933bc345e3e073c173b4e53f2d",
+            "id": "6a16798a031d0fee340acfc88f813ef9",
             "name": "Create a new Product Image.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/images\/{image_id}.json",
             "description": "",
@@ -2446,11 +2446,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "9bd505b1f57cda12d1d6c0af6a62dfe5",
+            "id": "76c9e791dd33f8434b364738e3587991",
             "name": "Retrieve all Product Options.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options.json",
             "description": "",
@@ -2484,11 +2484,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "ff3af239e556ea5c63b31534128ec48a",
+            "id": "79219c41bbef561e7c46f4ecfd7272a5",
             "name": "Create a new Product Option.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options.json",
             "description": "",
@@ -2515,11 +2515,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c5b836e720a5f28abeb8c635cd099d36",
+            "id": "80dd7e17379594b8ab9fb775515e81dd",
             "name": "Count all Product Options.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/count.json",
             "description": "",
@@ -2553,11 +2553,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "186f18688ced025a3e5b6debb80be190",
+            "id": "81eb0f0ea52b44db61a22731d91ab970",
             "name": "Delete a Product Option.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}.json",
             "description": "",
@@ -2591,11 +2591,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "7a334daa9712b7095cc44f0ccc1a0588",
+            "id": "a4ba8337f33685353b38fad4c40d827a",
             "name": "Create a new Product Option.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}.json",
             "description": "",
@@ -2629,11 +2629,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "0dd1eb84a9af4cb23e04b9c6541ed921",
+            "id": "17633042d490e79a175433454374c0c1",
             "name": "Modify an existing Product Option.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}.json",
             "description": "",
@@ -2667,11 +2667,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "74820551c41ea0335b03a2fe3c89d383",
+            "id": "e28f89695ad1b906a1ba281d4991e4b4",
             "name": "Retrieve all Product Option Values.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values.json",
             "description": "",
@@ -2712,11 +2712,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "40690962b30e4417588cdab75a8eeb01",
+            "id": "30a77cac9d4db7aab107fef2ea8d4508",
             "name": "Create a new Product Option Value.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values.json",
             "description": "",
@@ -2750,11 +2750,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "a9e2d8abfd5b01d23cd44cb6f28c1697",
+            "id": "2173be612b5a13820fad8edab620513a",
             "name": "Count all Product Option Values.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/count.json",
             "description": "",
@@ -2795,11 +2795,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "d7cca6ffd27e28429855ed910398ecb2",
+            "id": "8fac609e391b8fc3dc5522ba5775ecf9",
             "name": "Delete a Product Option Value.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/{value_id}.json",
             "description": "",
@@ -2840,11 +2840,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "507ff81a595358b64c9be502d78c8804",
+            "id": "29b325ab4556d7474e08f7e13b0756cc",
             "name": "Create a new Product Option Value.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/{value_id}.json",
             "description": "",
@@ -2885,11 +2885,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "e81d29dc4d4751ed7905efc34331b93d",
+            "id": "675fa9e0270c842a132fa28a7d93e891",
             "name": "Modify an existing Product Option Value.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/options\/{option_id}\/values\/{value_id}.json",
             "description": "",
@@ -2930,11 +2930,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "dca6b92519982ed9fac74782f399cf30",
+            "id": "2901d33642aa4c42f533ecfcaf3e508c",
             "name": "Retrieve all Product Variants.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants.json",
             "description": "",
@@ -2968,11 +2968,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "dc83df9b4cadd139e817370aff454f5c",
+            "id": "434d9a76f0f461b0a704386362c03aa7",
             "name": "Create a new Product Variant.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants.json",
             "description": "",
@@ -2999,11 +2999,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "401d28b587ac8d635390d9390d55e479",
+            "id": "5a26c41724d9743e672f596eaa789e77",
             "name": "Count all Product Variants.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants\/count.json",
             "description": "",
@@ -3037,11 +3037,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "502299dca950bdaf89db7e3708736e01",
+            "id": "482b5c66366c4e01f86869f38e0b42cb",
             "name": "Retrieve a single Product Variant.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants\/{variant_id}.json",
             "description": "",
@@ -3075,11 +3075,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "80b3973e959be9adcbafe6030c0cff78",
+            "id": "ab1745f153388c7e57535792661179ac",
             "name": "Modify an existing Product Variant.",
             "url": "http:\/\/api.jumpseller.com\/v1\/products\/{id}\/variants\/{variant_id}.json",
             "description": "",
@@ -3113,11 +3113,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "24b8b1ffde115ba9bec04980cb39c92b",
+            "id": "c8d29e3debac1e23fe665b8e0217c933",
             "name": "Retrieve all Promotions.",
             "url": "http:\/\/api.jumpseller.com\/v1\/promotions.json",
             "description": "",
@@ -3158,11 +3158,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "f9fb67034053b276f196733509afcf1e",
+            "id": "ec97b793eee36836bb4c2f45050f3ad3",
             "name": "Create a new Promotion.",
             "url": "http:\/\/api.jumpseller.com\/v1\/promotions.json",
             "description": "",
@@ -3189,11 +3189,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "c3d9b300d85a9f91ad3ff3b611b674a2",
+            "id": "91be9ddbc88948e6902aa4b6b88ace4b",
             "name": "Delete an existing Promotion.",
             "url": "http:\/\/api.jumpseller.com\/v1\/promotions\/{id}.json",
             "description": "",
@@ -3227,11 +3227,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "9367dbcd6a39a0dc1f1caa680695233e",
+            "id": "c3fb8168e27a8eade4d8b8410e1cf3cd",
             "name": "Retrieve a single Promotion.",
             "url": "http:\/\/api.jumpseller.com\/v1\/promotions\/{id}.json",
             "description": "",
@@ -3265,11 +3265,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "9cf93f1aa78155326e790c94eeb38c94",
+            "id": "e27f2df8b686b8020f7005223bfe9692",
             "name": "Update a Promotion.",
             "url": "http:\/\/api.jumpseller.com\/v1\/promotions\/{id}.json",
             "description": "",
@@ -3303,11 +3303,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "7ba51e4df48d97f2c595a9df06e35264",
+            "id": "1518fcbc42a706609f5b8cbf9605076b",
             "name": "Retrieve Store Information",
             "url": "http:\/\/api.jumpseller.com\/v1\/store\/info.json",
             "description": "",
@@ -3334,11 +3334,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "381556d49db8dca0ee934136bcf70ae1",
+            "id": "d58feb7c5fe28be877496c916864c1a2",
             "name": "Retrieve Store Languages",
             "url": "http:\/\/api.jumpseller.com\/v1\/store\/languages.json",
             "description": "",
@@ -3365,11 +3365,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "5ad53e5c33e764debaef728fedf3c127",
+            "id": "fc5afb26f85f9b8d64da2b9d900f949b",
             "name": "Retrieve all Taxes.",
             "url": "http:\/\/api.jumpseller.com\/v1\/taxes.json",
             "description": "",
@@ -3396,11 +3396,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "ebca3d557d1e14b2bbe3669841054fe7",
+            "id": "fb0a61c0bc6f816835e39545d2d535f6",
             "name": "Create a new Tax.",
             "url": "http:\/\/api.jumpseller.com\/v1\/taxes.json",
             "description": "",
@@ -3427,11 +3427,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "d968f5ffe39a8e05a1062d0ca520b947",
+            "id": "33e475a54504d13f585fdf8a60ff3ee8",
             "name": "Retrieve a single Tax information.",
             "url": "http:\/\/api.jumpseller.com\/v1\/taxes\/{id}.json",
             "description": "",
@@ -3465,11 +3465,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         },
         {
-            "id": "7c0f99e1b960ad3cbbfb4cb4b634aa20",
+            "id": "1ff3eba418ca7bf629cb6cf20b3c2c17",
             "name": "Retrieve orders filtered by Order Id.",
             "url": "http:\/\/api.jumpseller.com\/v1\/orders\/after\/{id}.json",
             "description": "For example the GET \/orders\/after\/5000 will return Order 5001, 5002, 5003, etc.",
@@ -3503,7 +3503,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d8584aa5c47ebe051d8ec7814eee27f2",
+            "collectionId": "b087ea05773e566f0bfe3ab97f2c3003",
             "rawModeData": ""
         }
     ]
